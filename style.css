@@ -569,7 +569,9 @@ li{
     
     .icon-nav{
        flex-direction: column;
-       display: inline-block;
+       display: block;
+       position: relative;
+       right: 120px;
     }
 
     hr{
