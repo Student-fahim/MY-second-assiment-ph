@@ -568,7 +568,6 @@ li{
     }
     
     .icon-nav{
-       flex-direction: column;
        display: block;
        position: relative;
        right: 150px;
