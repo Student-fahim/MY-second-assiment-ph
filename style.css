@@ -570,8 +570,7 @@ li{
     .icon-nav{
        flex-direction: column;
        display: block;
-       position: relative;
-       right: 120px;
+       margin-right: 130px;
     }
 
     hr{
