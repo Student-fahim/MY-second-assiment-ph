@@ -128,6 +128,16 @@ a{
     border-radius: 50%;
     margin-bottom: 25px;
 }
+.box-img-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 142, 3);
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
 /* .box-img-1{
     display: flex;
     align-items: center;
@@ -199,6 +209,9 @@ a{
     display: flex;
     gap: 20px;
 }
+.box3:hover{
+    transform: scale(1.1);
+}
 .box-1{
     box-sizing: border-box;
     border: 0.94px solid rgb(222, 245, 255);
@@ -230,7 +243,23 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 }
 .box3{
     height: 400px;
+    transition: all 0.5s ease-in;
 }
+.contentbox-icon{
+    margin-top: 40px;
+    transition: all 0.5s ease-in;
+}
+/* .icon-1{
+    transition: all 0.5s ease-in;
+
+} */
+.box-img-1:hover{
+    transform: scale(1.1);
+}
+.box-img-2:hover{
+    transform: scale(1.1);
+}
+
 .text-{
     display: flex;
     flex-direction: column;
