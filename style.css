@@ -2,7 +2,7 @@
     /* border: 1px solid red; */
     padding: 0;
     margin: 0;
-    
+    font-family: Arial;
 }
 body{
     max-width: 1200px;
@@ -543,6 +543,7 @@ li{
         align-items: center;
         justify-content: center;
         text-align: center;
+        overflow: hidden;
     }
     .story-card .date-tag {
         position: absolute;
@@ -552,9 +553,11 @@ li{
         padding: 5px 10px;
         font-size: 12px;
         border-radius: 15px;
+        overflow: hidden;
     }
     .bannar-imag{
         max-width: 300px;
+        overflow: hidden;
     }
     .contenbox-1{
         flex-direction: column-reverse;
@@ -565,26 +568,30 @@ li{
         position: relative;
         top: 340px;
         bottom: 50px;
+        overflow: hidden;
     }
     
     .icon-nav{
        display: block;
-       position: relative;
-       right: 150px;
+       overflow: hidden;
     }
 
     hr{
         display: block;
         background-color: rgb(249, 142, 2);
+        overflow: hidden;
     }
     .section-3{
         background-position: center;
+        overflow: hidden;
     }
     .contenbox-1-2,.contenbox-1-2-h4{
         width: 250px;
+        overflow: hidden;
     }
     ul,.navbar-btn1{
         visibility: hidden;
+        overflow: hidden;
     }
     
     .contenbox-1{
@@ -594,78 +601,96 @@ li{
         position: relative;
         right: 200px;
         margin-bottom: 300px;
+        overflow: hidden;
 
     }
     .ul-f{
         flex-direction: column;
+        overflow: hidden;
     }
     .banner{
         flex-direction: column-reverse;
+        overflow: hidden;
     }
     .contentbox-box{
         column-gap: -6;
         max-width: 50px;
         margin-left: -10px;
         margin-left: 10px;
+        overflow: hidden;
         grid-template-columns: repeat(2,1fr)
     }
     .box4{
        max-width: 260px;
+       overflow: hidden;
     }
     .image{
        max-width: 250px;
+       overflow: hidden;
     }
     .contentbox-4{
         flex-direction: column;
         gap: 10px;
+        overflow: hidden;
     }
     .contentbox-f-1{
         flex-direction: column;
         justify-content: flex-start;
         text-align: start;
         align-items: start;
+        overflow: hidden;
     }
     .contentbox-f-1-2{
         flex-direction: column;
         align-items: flex-start;
+        overflow: hidden;
     }
     .box,.text-f,.icon-1{
         display: none;
+        overflow: hidden;
     }
     .stories h2 {
         font-size: 32px;
+        overflow: hidden;
     }
     .story-layout {
         flex-direction: column;
         gap: 20px;
+        overflow: hidden;
     }
 
     .left-card,
     .story-card {
         max-width: 100%;
+        overflow: hidden;
     }
 
     .right-cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+        overflow: hidden;
     }
     .story-card h4 {
         font-size: 10px;
         padding: 20px 15px;
         text-align: left;
+        overflow: hidden;
     }
     .story-card .date-tag {
         bottom: 90px;
         left: 20px;
         font-size: 9px;
+        overflow: hidden;
     }
     .left-card{
         display: none;
+        overflow: hidden;
     }
     .banner-containar{
         flex-direction: column;
         text-align: center;
+        overflow: hidden;
     }
 
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
